@@ -29,97 +29,98 @@
   <div class="brand">
     <a href="#" class="navbar-brand acas-logo__img"><img src="images/acas-logo.svg" alt="ACAS">
       <p class="brand-lead">We're the official, impartial source for advice at work</p></a>
-      <form class="navbar-form navbar-right" role="search">
+      <form class="search-form navbar-form navbar-right" role="search">
         <div class="form-group">
-          <input type="text" class="form-control" placeholder="Search">
+        <button type="submit" class="acas-btn btn btn-default">
+          <input type="text" class="form-control" placeholder="Search ACAS">
+          <span class="glyphicon glyphicon-search"></span>
+        </button>
         </div>
-        <button type="submit" class="btn btn-default">Submit</button>
-      </form>
-    </div>
-
-
-    <!-- Image and text -->
-    <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-        <ul class="navbar-nav mr-auto mt-2 mt-md-0">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Free Advice</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Training</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Consult</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Help & Support</a>
-          </li>
-        </ul>
+        </form>
       </div>
-    </nav>
-    <div class="body-container">
-      <header class="header">
-      </header>
-      <div class="jumbotron">
-        <div class="row marketing">
-          <div class="col-lg-12">
-            <h1 id="slogan-title">Welcome to ACAS</h1>
-            <p class="lead">We're a government fended, impatial source of work advice for everyone</p>
+
+      <!-- Image and text -->
+      <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav mr-auto mt-2 mt-md-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Free Advice</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Training</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Consult</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Help & Support</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="body-container">
+        <header class="header">
+        </header>
+        <div class="jumbotron">
+          <div class="row marketing">
+            <div class="col-lg-12">
+              <h1 id="slogan-title">Welcome to ACAS</h1>
+              <p class="lead">We're a government fended, impatial source of work advice for everyone</p>
+            </div>
+          </div>
+
+          <div class="row marketing">
+            <div class="col-lg-6">
+            </div>
+          </div>
+
+          <div class="footer">
           </div>
         </div>
 
-        <div class="row marketing">
-          <div class="col-lg-6">
-          </div>
-        </div>
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+        (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+          function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+          e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+          e.src='https://www.google-analytics.com/analytics.js';
+          r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+          ga('create','UA-XXXXX-X');ga('send','pageview');
+          </script>
 
-        <div class="footer">
-        </div>
-      </div>
+          <!-- build:js scripts/vendor.js -->
+          <!-- bower:js -->
+          <script src="/bower_components/jquery/dist/jquery.js"></script>
+          <script src="/bower_components/modernizr/modernizr.js"></script>
+          <!-- endbower -->
+          <!-- endbuild -->
 
-      <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-      <script>
-      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-        function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-        e.src='https://www.google-analytics.com/analytics.js';
-        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-        ga('create','UA-XXXXX-X');ga('send','pageview');
-        </script>
+          <!-- build:js scripts/plugins.js -->
+          <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/affix.js"></script>
+          <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/alert.js"></script>
+          <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/dropdown.js"></script>
+          <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/tooltip.js"></script>
+          <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/modal.js"></script>
+          <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/transition.js"></script>
+          <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/button.js"></script>
+          <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/popover.js"></script>
+          <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/carousel.js"></script>
+          <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/scrollspy.js"></script>
+          <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/collapse.js"></script>
+          <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/tab.js"></script>
+          <!-- endbuild -->
 
-        <!-- build:js scripts/vendor.js -->
-        <!-- bower:js -->
-        <script src="/bower_components/jquery/dist/jquery.js"></script>
-        <script src="/bower_components/modernizr/modernizr.js"></script>
-        <!-- endbower -->
-        <!-- endbuild -->
-
-        <!-- build:js scripts/plugins.js -->
-        <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/affix.js"></script>
-        <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/alert.js"></script>
-        <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/dropdown.js"></script>
-        <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/tooltip.js"></script>
-        <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/modal.js"></script>
-        <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/transition.js"></script>
-        <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/button.js"></script>
-        <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/popover.js"></script>
-        <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/carousel.js"></script>
-        <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/scrollspy.js"></script>
-        <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/collapse.js"></script>
-        <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/tab.js"></script>
-        <!-- endbuild -->
-
-        <!-- build:js scripts/main.js -->
-        <script src="scripts/main.js"></script>
-        <!-- endbuild -->
-      </body>
-      </html>
+          <!-- build:js scripts/main.js -->
+          <script src="scripts/main.js"></script>
+          <!-- endbuild -->
+        </body>
+        </html>

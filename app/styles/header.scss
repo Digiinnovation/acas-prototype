@@ -21,8 +21,19 @@ a.acas-logo__img {
 
 p.brand-lead {
   font-size: 22px;
-  width: 40%;
   font-family: 'Muli', sans-serif;
   font-weight: 100;
   color : #706f6f;
+  width: 40%;
+  padding: 1rem;
+}
+
+.search-form input.form-control {
+  border: none;
+  box-shadow: none;
+}
+
+.acas-btn {
+  border-radius: 30px;
+  border: solid 1px #e0e0e0;
 }
