@@ -1,0 +1,7 @@
+node_modules
+dist
+.tmp
+.babelrc
+.bowerrc
+bower_components
+test/bower_components
