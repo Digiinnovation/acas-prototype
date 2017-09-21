@@ -1,9 +1,28 @@
 
-a.navbar-left.acas-logo__img {
-  display: inline;
+// a.navbar-left.acas-logo__img {
+a.acas-logo__img {
+  display: inline-flex;
   float: left;
-  width: 13%;
+  width:800px;
   vertical-align: top;
   margin-top: 12px;
-  margin-bottom: 0.375rem;
+}
+
+.brand {
+  height: 10rem;
+  width: 95%;
+}
+
+.navbar-brand {
+  padding: 0;
+  font-size: 1rem;
+  height: 50px;
+}
+
+p.brand-lead {
+  font-size: 22px;
+  width: 40%;
+  font-family: 'Muli', sans-serif;
+  font-weight: 100;
+  color : #706f6f;
 }
