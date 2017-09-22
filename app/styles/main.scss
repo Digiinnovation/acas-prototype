@@ -91,7 +91,6 @@ p.slogan-lead {
 
 .main.container {
   background-color:$content-box-color;
-  box-shadow: 3px 2px 1px 1px #ccc;
   padding: 4rem;
 }
 
@@ -127,6 +126,7 @@ p.slogan-lead {
 .advice-help {
   font-size: 2rem;
   font-weight: $font-weight-light;
+  margin: 2rem;
 }
 
 .col.text-center.advice {
@@ -149,6 +149,39 @@ p.slogan-lead {
 .more-advice-options * {
   margin: 1rem 1rem;
 }
+
+.news {
+  background-color:$content-box-color;
+  box-shadow: 1px 1px 1px 1px #ccc;
+  padding: 0 4rem 2rem;
+}
+.news.container {
+  margin: 4rem auto;
+}
+
+.news h1 {
+  color: #007a8a;
+  font-weight: $font-weight-bold;
+  margin-bottom: 4rem;
+}
+
+.news-title {
+  display:inline-flex;
+  width: 70%;
+}
+.sign-up-newsletter {
+  display: inline-flex;
+}
+.sign-up-newsletter.btn {
+  padding: 0;
+  border-radius: 20px;
+  width: 25%;
+  font-size: 2rem;
+}
+
+/*
+General html elements
+*/
 
 a:hover, a:focus {
   color: #016168;
@@ -183,6 +216,11 @@ a {
   width: 31%;
   height: 8rem;
   border-radius: 0px;
+}
+
+.glyphicon-chevron-right:before {
+  content: "\e080";
+  color: #007a8a;
 }
 
 /* Responsive: Portrait tablets and up */
