@@ -2,7 +2,6 @@
 $font-family-muli: 'Muli', sans-serif;
 $font-weight-light: 200;
 
-// a.navbar-left.acas-logo__img {
 a.acas-logo__img {
   display: inline-flex;
   float: left;
@@ -14,6 +13,10 @@ a.acas-logo__img {
 .brand {
   height: 10rem;
   width: 95%;
+}
+
+.navbar-collapse {
+  padding: 0;
 }
 
 .navbar-brand {
