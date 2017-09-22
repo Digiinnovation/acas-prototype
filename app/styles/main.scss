@@ -5,8 +5,9 @@ $icon-font-path: '../fonts/';
 
 @import "app/styles/header.scss";
 $font-family-muli: 'Muli', sans-serif;
+$font-weight-bold: 500;
 $content-box-color: #F9F9F9;
-
+$clickable-color: #007a8a;
 
 .browserupgrade {
   margin: 0.2em 0;
@@ -94,10 +95,22 @@ p.slogan-lead {
   padding: 4rem;
 }
 
+.advice-options {
+  height: 70%;
+}
+
 .advice-title p {
   font-size: 3rem;
   font-weight: $font-weight-light;
   display:inline-block;
+}
+.popular-advice-options {
+  height: 100%;
+}
+
+.popular-advice {
+  margin-bottom: 4rem;
+  height: 25rem;
 }
 
 .popular-advice .btn {
@@ -107,9 +120,30 @@ p.slogan-lead {
   padding:0px 70px;
 }
 
+.advice-title {
+  margin: 1rem 0px;
+}
+
+.col.col-md-4.text-center.advice {
+  margin-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+
 .col.text-center.advice {
   float: left;
   margin: 1rem 1rem;
+}
+
+.show-more-advice {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.show-more-advice a {
+  font-size: 2rem;
+  font-family: $font-family-muli;
+  font-weight: $font-weight-bold;
 }
 
 a:hover, a:focus {
@@ -118,13 +152,6 @@ a:hover, a:focus {
 
 a {
   color: #007a8a;
-}
-.popular-advice {
-}
-
-.col.col-md-4.text-center.advice {
-  margin-bottom: 1rem;
-  margin-bottom: 1rem;
 }
 
 .btn{
