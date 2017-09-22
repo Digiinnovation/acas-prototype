@@ -1,4 +1,7 @@
 
+$font-family-muli: 'Muli', sans-serif;
+$font-weight-light: 200;
+
 // a.navbar-left.acas-logo__img {
 a.acas-logo__img {
   display: inline-flex;
@@ -21,8 +24,8 @@ a.acas-logo__img {
 
 p.brand-lead {
   font-size: 22px;
-  font-family: 'Muli', sans-serif;
-  font-weight: 100;
+  font-family: $font-family-muli;
+  font-weight: $font-weight-light;
   color : #706f6f;
   width: 40%;
   padding: 1rem;
@@ -36,4 +39,31 @@ p.brand-lead {
 .acas-btn {
   border-radius: 30px;
   border: solid 1px #e0e0e0;
+}
+
+li.nav-item {
+  background-color: white;
+  border-left: solid 2px white;
+  border-right: solid 2px white;
+}
+
+a.nav-link {
+  color: #6d6c6d;
+  background-color: #e0e0e0;
+}
+
+.nav-pills > li > a {
+  border-radius: 0px;
+  background-color: #e0e0e0;
+  padding: 15px 0px;
+  font-size: 2rem;
+  font-family: $font-family-muli;
+  font-weight: $font-weight-light;
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+  background-color: white;
+  color: #007a8a;
+  font-size: 2.0rem;
+  font-weight: 400;
 }

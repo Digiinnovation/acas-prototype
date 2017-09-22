@@ -4,6 +4,8 @@ $icon-font-path: '../fonts/';
 // endbower
 
 @import "app/styles/header.scss";
+$font-family-muli: 'Muli', sans-serif;
+
 
 .browserupgrade {
   margin: 0.2em 0;
@@ -16,6 +18,7 @@ $icon-font-path: '../fonts/';
 body {
   padding-top: 20px;
   padding-bottom: 20px;
+  font-family: 'Muli', sans-serif;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
