@@ -44,9 +44,6 @@ body {
 
 /* Custom page footer */
 .footer {
-  padding-top: 19px;
-  color: #777;
-  border-top: 1px solid #e5e5e5;
 }
 
 /* Customize container */
@@ -63,18 +60,38 @@ body {
 .jumbotron {
   text-align: center;
   border-bottom: 1px solid #e5e5e5;
+  background-image: url("../images/banner.jpg");
+  background-size: cover;
+  padding-top: 0;
+  padding-bottom: 3rem;
+
 }
 .jumbotron .btn {
   padding: 14px 24px;
   font-size: 21px;
 }
 
-/* Supporting marketing content */
-.marketing {
-  margin: 40px 0;
+.slogan {
+  margin-left: 5.5rem;
 }
-.marketing p + h4 {
-  margin-top: 28px;
+
+h1#slogan-title {
+  font-family: $font-family-muli;
+  font-weight: $font-weight-light;
+  font-size: 5rem;
+  text-align: left;
+  margin-bottom: 2rem;
+  color: white;
+  width: 30%;
+}
+
+p.slogan-lead {
+  font-family: $font-family-muli;
+  font-weight: $font-weight-light;
+  font-size: 18px;
+  text-align: left;
+  width: 20%;
+  color: white;
 }
 
 /* Responsive: Portrait tablets and up */
