@@ -1,9 +1,15 @@
 
+h1.redundancy-title {
+  font-weight: $font-weight-light;
+  color:white;
+  font-size: $header1-size;
+}
 .advice-title p.redundancy  {
   color: $teal-color;
   font-weight: 500;
   font-family: $font-family-muli;
   font-size: 2.5rem;
+  display: block;
 }
 
 .advice-title p.advice-lead {
@@ -14,6 +20,8 @@
 .email-signup {
   color:white;
   font-weight: $font-weight-bold;
+  top:50%;
+  margin-top:50px;
 }
 
 .email-icon {
@@ -36,22 +44,42 @@
   margin-bottom: 2rem;
   box-shadow: 2px 1px 1px 1px #ccc;
 }
+.redundancy-advice-options.row {
+  margin: 5rem 0;
+}
 
 .redundancy-advice-options button.more-advice.btn.btn-primary.btn-lg {
-    width: 100%;
-    padding: 30px;
-    background-color: $teal-color;
-    color: $font-color-white;
-    font-size: 2rem;
-    font-weight: $font-weight-bold;
-    margin-bottom: 1rem;
-  }
+  width: 100%;
+  padding: 30px;
+  background-color: $teal-color;
+  color: $font-color-white;
+  font-size: 2rem;
+  font-weight: $font-weight-bold;
+  margin-bottom: 1rem;
+}
 
-  .feedback-icon {
-    width: 26px;
-    height: 20px;
-    content: url("../images/feedback.svg");
-    background-repeat: no-repeat;;
-    color: $clickable-color;
-    margin-right: 1rem;
-  }
+.feedback-icon {
+  width: 26px;
+  height: 20px;
+  content: url("../images/feedback.svg");
+  background-repeat: no-repeat;;
+  color: $clickable-color;
+  margin-right: 1rem;
+}
+
+.redundancy.show-more-advice {
+  margin: 5rem 0;
+}
+
+.right-arrow-icon {
+  width: 26px;
+  height: 20px;
+  content: url("../images/right-arrow.svg");
+  background-repeat: no-repeat;;
+  color: $clickable-color;
+  margin-right: 1rem;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+}
