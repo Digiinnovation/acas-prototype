@@ -5,9 +5,11 @@ $icon-font-path: '../fonts/';
 
 @import "app/styles/header.scss";
 $font-family-muli: 'Muli', sans-serif;
+$font-color-white: #dbdbdb;
 $font-weight-bold: 500;
 $content-box-color: #F9F9F9;
 $clickable-color: #007a8a;
+$dark-grey: #595959;
 
 .browserupgrade {
   margin: 0.2em 0;
@@ -91,6 +93,54 @@ p.slogan-lead {
 .main.container {
   background-color:$content-box-color;
   padding: 4rem;
+}
+
+.advice-title .dropdown {
+  width: 210px;
+  display: inline-block;
+  float: right;
+}
+
+.dropdown-menu {
+  background-color: $dark-grey;
+  border-color: $dark-grey
+  margin: 0;
+  border: none;
+  border-radius: 0;
+}
+
+.dropdown-menu > li > a {
+  color: $font-color-white;
+  padding: 1rem;
+}
+
+.open > .dropdown-menu {
+  width: 100%;
+}
+
+button.btn.btn-primary.dropdown-toggle {
+  background-color: $dark-grey;
+  border-color: $dark-grey;
+}
+
+.dropdown-toggle:focus {
+  background-color: #848484 !important;
+}
+
+.dropdown-toggle:hover {
+  background-color: #595959 !important;
+}
+
+.advice-title .dropdown-menu:hover {
+}
+
+.btn .caret {
+  margin-left: 70px;
+}
+
+button.btn.btn-primary.dropdown-toggle {
+  padding: 0 20px 0px;
+  margin-right: 0;
 }
 
 .popular-advice {
