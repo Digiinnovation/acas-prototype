@@ -23,7 +23,6 @@ body > * {
 /* Space out content a bit */
 body {
   padding-top: 20px;
-  padding-bottom: 20px;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -150,6 +149,10 @@ p.slogan-lead {
   margin: 1rem 1rem;
 }
 
+.more-advice-options button {
+  font-weight: $font-weight-light;
+}
+
 .news {
   background-color:$content-box-color;
   box-shadow: 1px 1px 1px 1px #ccc;
@@ -165,6 +168,10 @@ p.slogan-lead {
   margin-bottom: 4rem;
 }
 
+.news p {
+  font-weight: $font-weight-light;
+}
+
 .news-title {
   display:inline-flex;
   width: 70%;
@@ -173,10 +180,38 @@ p.slogan-lead {
   display: inline-flex;
 }
 .sign-up-newsletter.btn {
-  padding: 0;
   border-radius: 20px;
-  width: 25%;
   font-size: 2rem;
+  font-weight: $font-weight-light;
+}
+
+/*
+Footer html elements
+*/
+
+footer {
+  background-color: #6f6f6f;
+  color: #dcdcdc;
+}
+
+footer .row {
+  margin: 0 0 5rem 0;
+}
+
+footer .row h3 {
+  font-family: $font-family-muli;
+  font-weight: $font-weight-light;
+  font-size: 2.5rem;
+}
+
+footer .row p {
+  font-weight: $font-weight-light;
+}
+
+ul#menu li {
+  display: inline;
+  margin: 4rem 7rem;
+  font-weight: $font-weight-light;
 }
 
 /*
