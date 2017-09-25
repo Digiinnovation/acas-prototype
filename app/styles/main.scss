@@ -9,6 +9,7 @@ $font-color-white: #dbdbdb;
 $font-weight-bold: 500;
 $content-box-color: #F9F9F9;
 $clickable-color: #007a8a;
+$clickable-hover: #016168;
 $dark-grey: #595959;
 
 .browserupgrade {
@@ -60,8 +61,9 @@ body {
   background-size: cover;
   padding-top: 0;
   padding-bottom: 3rem;
-
+  margin-bottom: 0;
 }
+
 .jumbotron .btn {
   padding: 14px 24px;
   font-size: 21px;
@@ -92,7 +94,6 @@ p.slogan-lead {
 
 .main.container {
   background-color:$content-box-color;
-  padding: 4rem;
 }
 
 .advice-title .dropdown {
@@ -143,8 +144,8 @@ button.btn.btn-primary.dropdown-toggle {
 }
 
 .popular-advice {
-  margin-bottom: 7rem;
-  height: 25rem;
+  margin: 0;
+  height: 100%;
 }
 
 .advice-options {
@@ -178,13 +179,12 @@ button.btn.btn-primary.dropdown-toggle {
 }
 
 .col.text-center.advice {
-  float: left;
   margin: 1.4rem 1.4rem;
 }
 
 .show-more-advice {
-  width: 50%;
-  margin: 0 auto;
+  width: 100%;
+  margin: 2rem auto;
   text-align: center;
 }
 
@@ -195,7 +195,7 @@ button.btn.btn-primary.dropdown-toggle {
 }
 
 .more-advice-options * {
-  margin: 1rem 1rem;
+  margin: 1rem 0;
 }
 
 .more-advice-options button {
@@ -294,6 +294,10 @@ a {
   border-color: #2e6da4;
   border-radius: 0px;
 }
+.btn-primary:hover {
+  background-color: $clickable-hover;
+  border-color: $clickable-hover;
+}
 
 .btn-lg {
   padding: 20px 80px;
@@ -323,7 +327,12 @@ a {
   /* Remove the bottom border on the jumbotron for visual effect */
   .jumbotron {
     border-bottom: 0;
+    margin-bottom: 30px;
   }
+
+.main.container {
+  padding: 4rem;
+}
 
   .btn-lg {
     width: 31%;
@@ -339,15 +348,35 @@ a {
   }
 
   button.btn.btn-primary.dropdown-toggle {
-  padding: 0 20px 0px;
-  margin-right: 0;
-}
+    padding: 0 20px 0px;
+    margin-right: 0;
+  }
 
-.advice-title .dropdown {
-  width: 210px;
-  display: inline-block;
-  float: right;
-}
+  .advice-title .dropdown {
+    width: 210px;
+    display: inline-block;
+    float: right;
+  }
 
+  .popular-advice {
+    margin-bottom: 7rem;
+    height: 25rem;
+  }
+
+  .col.text-center.advice {
+    float: left;
+    margin: 1.4rem 1.4rem;
+  }
+
+  .show-more-advice {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    display:inline-block;
+  }
+
+.more-advice-options * {
+  margin: 1rem 1rem;
+}
 
 }
