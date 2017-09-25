@@ -310,6 +310,11 @@ a {
   content: "\e080";
   color: #007a8a;
 }
+@media screen and (min-width: 968px) {
+  .btn-lg, {
+    width:30%;
+  }
+}
 
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
@@ -330,12 +335,12 @@ a {
     margin-bottom: 30px;
   }
 
-.main.container {
-  padding: 4rem;
-}
+  .main.container {
+    padding: 4rem;
+  }
 
   .btn-lg {
-    width: 31%;
+    min-width: 267px;
   }
 
   p.slogan-lead {
@@ -360,7 +365,6 @@ a {
 
   .popular-advice {
     margin-bottom: 7rem;
-    height: 25rem;
   }
 
   .col.text-center.advice {
@@ -369,14 +373,14 @@ a {
   }
 
   .show-more-advice {
-    width: 50%;
+    width: 100%;
     margin: 0 auto;
     text-align: center;
     display:inline-block;
   }
 
-.more-advice-options * {
-  margin: 1rem 1rem;
-}
+  .more-advice-options * {
+    margin: 1rem 1rem;
+  }
 
 }
