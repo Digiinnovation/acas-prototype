@@ -82,4 +82,14 @@ a.nav-link {
   content: url("../images/home.svg");
   background-repeat: no-repeat;;
   color: $clickable-color;
+  margin-right: 1rem;
+}
+
+.help-icon {
+  width: 26px;
+  height: 20px;
+  content: url("../images/question-mark.svg");
+  background-repeat: no-repeat;;
+  color: $clickable-color;
+  margin-right: 1rem;
 }
