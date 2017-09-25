@@ -27,6 +27,9 @@ body > * {
 body {
   padding-top: 20px;
 }
+.row {
+  margin: 0;
+}
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
@@ -71,6 +74,7 @@ body {
 
 .slogan {
   margin-left: 5.5rem;
+  width: 80%;
 }
 
 h1#slogan-title {
@@ -88,7 +92,6 @@ p.slogan-lead {
   font-weight: $font-weight-light;
   font-size: 18px;
   text-align: left;
-  // width: 20%;
   color: white;
 }
 
