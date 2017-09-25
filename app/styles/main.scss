@@ -86,7 +86,7 @@ p.slogan-lead {
   font-weight: $font-weight-light;
   font-size: 18px;
   text-align: left;
-  width: 20%;
+  // width: 20%;
   color: white;
 }
 
@@ -96,9 +96,8 @@ p.slogan-lead {
 }
 
 .advice-title .dropdown {
-  width: 210px;
-  display: inline-block;
-  float: right;
+  width: 100%;
+  margin: 3rem 0;
 }
 
 .dropdown-menu {
@@ -121,6 +120,9 @@ p.slogan-lead {
 button.btn.btn-primary.dropdown-toggle {
   background-color: $dark-grey;
   border-color: $dark-grey;
+  width: 100%;
+  // padding: 0 20px 0px;
+  // margin-right: 0;
 }
 
 .dropdown-toggle:focus {
@@ -138,11 +140,6 @@ button.btn.btn-primary.dropdown-toggle {
 
 .btn .caret {
   margin-left: 70px;
-}
-
-button.btn.btn-primary.dropdown-toggle {
-  padding: 0 20px 0px;
-  margin-right: 0;
 }
 
 .popular-advice {
@@ -300,7 +297,7 @@ a {
 
 .btn-lg {
   padding: 20px 80px;
-  width: 31%;
+  width: 100%;
   height: 8rem;
   border-radius: 0px;
 }
@@ -327,4 +324,30 @@ a {
   .jumbotron {
     border-bottom: 0;
   }
+
+  .btn-lg {
+    width: 31%;
+  }
+
+  p.slogan-lead {
+    font-family: $font-family-muli;
+    font-weight: $font-weight-light;
+    font-size: 18px;
+    text-align: left;
+    width: 20%;
+    color: white;
+  }
+
+  button.btn.btn-primary.dropdown-toggle {
+  padding: 0 20px 0px;
+  margin-right: 0;
+}
+
+.advice-title .dropdown {
+  width: 210px;
+  display: inline-block;
+  float: right;
+}
+
+
 }
