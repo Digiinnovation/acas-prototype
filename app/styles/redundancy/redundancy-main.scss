@@ -68,16 +68,6 @@ h1.redundancy-title {
   margin-bottom: 1rem;
 }
 
-// button.more-advice.btn.btn-primary {
-//   width: 100%;
-//   padding: 20px;
-//   background-color: $teal-color;
-//   color: white;
-//   font-size: 2rem;
-//   font-weight: $font-weight-bold;
-//   margin-bottom: 1rem;
-// }
-
 .feedback-icon {
   width: 26px;
   height: 20px;
@@ -209,9 +199,24 @@ span.info-icon {
   content: url("../images/information.svg");
 }
 
+span.plus-icon {
+  content: url("../images/plus.svg");
+}
+
+.notice-periods h3 {
+  width: 88%;
+  color: $teal-color;
+  font-weight: 500;
+}
+
 .more-info h3 {
   display: inline-block;
 }
+
+.more-info-content.notice-periods.content-box {
+  padding: 0 1rem;
+}
+
 
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
@@ -259,5 +264,4 @@ span.info-icon {
   .how-much-paid button {
     width: 33%;
   }
-
 }
