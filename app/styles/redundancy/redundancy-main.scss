@@ -48,9 +48,9 @@ h1.redundancy-title {
   margin: 5rem 0;
 }
 
-.redundancy-advice-options button.more-advice.btn.btn-primary.btn-lg {
+button.more-advice.btn.btn-primary {
   width: 100%;
-  padding: 30px;
+  padding: 20px;
   background-color: $teal-color;
   color: white;
   font-size: 2rem;
@@ -82,8 +82,8 @@ h1.redundancy-title {
 
 .menu-bar {
   background-color: $content-box-color;
+  border-bottom: solid #eaeaea 1px;
 }
-
 
 .utility p {
   color: $teal-color;
@@ -130,6 +130,69 @@ h1.redundancy-title {
   color: $clickable-color;
   margin-right: 1rem;
 }
+
+.redundancy-advice .title h1 {
+  display: inline-block;
+  font-weight: $font-weight-light;
+}
+
+.what-is-redundancy-pay.container-fluid {
+  background-color: $content-box-color;
+  box-shadow: $box-shadow;
+  margin: 1rem auto;
+}
+
+.claim-redundancy-pay {
+  background-color: $content-box-color;
+  box-shadow: $box-shadow;
+  margin: 1rem auto;
+}
+
+.law-says.container-fluid {
+  background-color: $purple-color;
+  color: white;
+  margin: 1rem auto;
+}
+
+.yes-claim {
+  background-color: #e2ede7;
+  margin: 1rem auto;
+}
+
+.no-claim {
+  background-color: #f3e2e0;
+  margin: 1rem auto;
+}
+
+.what-is-redundancy-pay-made-of.container-fluid {
+  background-color: $content-box-color;
+  box-shadow: $box-shadow;
+  margin: 1rem auto;
+}
+
+.calculation-image {
+  background: url("../images/calculation-567px.jpg") no-repeat;
+  background-size: contain;
+  background-position: center;
+  min-height: 11rem;;
+}
+
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
+  .calculation-image {
+    background: url("../images/calculation-768px.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 9rem;
+  }
+
+  button.more-advice.btn.btn-primary {
+    width: 33%;
+    padding: 10px;
+    background-color: $teal-color;
+    color: white;
+    font-size: 2rem;
+    font-weight: $font-weight-bold;
+    margin-bottom: 1rem;
+  }
 }
