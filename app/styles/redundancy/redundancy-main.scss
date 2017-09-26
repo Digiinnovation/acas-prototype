@@ -52,7 +52,7 @@ h1.redundancy-title {
   width: 100%;
   padding: 30px;
   background-color: $teal-color;
-  color: $font-color-white;
+  color: white;
   font-size: 2rem;
   font-weight: $font-weight-bold;
   margin-bottom: 1rem;
@@ -80,6 +80,56 @@ h1.redundancy-title {
   margin-right: 1rem;
 }
 
+.menu-bar {
+  background-color: $content-box-color;
+}
+
+
+.utility p {
+  color: $teal-color;
+  display: inline-block;
+}
+
+.social-icons p {
+  display: inline-block;
+  color: $teal-color;
+}
+
+.linkedin-icon {
+  content: url("../images/linkedin.svg");
+  color: $clickable-color;
+  margin-right: 1rem;
+}
+
+.facebook-icon {
+  content: url("../images/facebook.svg");
+  color: $clickable-color;
+  margin-right: 1rem;
+}
+
+.twitter-icon {
+  content: url("../images/twitter.svg");
+  color: $clickable-color;
+  margin-right: 1rem;
+}
+
+.save-icon {
+  content: url("../images/save.svg");
+  color: $clickable-color;
+  margin-right: 1rem;
+}
+
+.email-green-icon {
+  content: url("../images/email-green.svg");
+  color: $clickable-color;
+  margin-right: 1rem;
+}
+
+.print-icon {
+  content: url("../images/print.svg");
+  color: $clickable-color;
+  margin-right: 1rem;
+}
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
 }

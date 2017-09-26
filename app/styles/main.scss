@@ -311,6 +311,13 @@ a {
   content: "\e080";
   color: #007a8a;
 }
+
+.icon {
+  width: 26px;
+  height: 20px;
+  background-repeat: no-repeat;;
+}
+
 @media screen and (min-width: 968px) {
   .btn-lg, {
     width:30%;
