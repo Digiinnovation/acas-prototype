@@ -204,7 +204,7 @@ button.btn.btn-primary.dropdown-toggle {
 
 .news {
   background-color:$content-box-color;
-  box-shadow: 1px 1px 1px 1px #ccc;
+  box-shadow: $box-shadow;
   padding: 0 4rem 2rem;
 }
 .news.container {
@@ -315,7 +315,8 @@ a {
 .icon {
   width: 26px;
   height: 20px;
-  background-repeat: no-repeat;;
+  background-repeat: no-repeat;
+  margin-right: 1rem;
 }
 
 @media screen and (min-width: 968px) {

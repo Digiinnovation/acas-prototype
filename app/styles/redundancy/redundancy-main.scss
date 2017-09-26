@@ -1,3 +1,14 @@
+h3 {
+  font-weight: $font-weight-light;
+}
+p {
+  font-weight: $font-weight-light;
+}
+.content-box {
+  background-color: $content-box-color;
+  box-shadow: $box-shadow;
+  margin: 2rem auto;
+}
 
 h1.redundancy-title {
   font-weight: $font-weight-light;
@@ -42,14 +53,13 @@ h1.redundancy-title {
   background-color: $content-box-color;
   padding: 4rem;
   margin-bottom: 2rem;
-  box-shadow: 2px 1px 1px 1px #ccc;
+  box-shadow: $box-shadow;
 }
 .redundancy-advice-options.row {
   margin: 5rem 0;
 }
-
-button.more-advice.btn.btn-primary {
-  width: 100%;
+.what-is-redundancy-pay-made-of button {
+  width: 33%;
   padding: 20px;
   background-color: $teal-color;
   color: white;
@@ -57,6 +67,16 @@ button.more-advice.btn.btn-primary {
   font-weight: $font-weight-bold;
   margin-bottom: 1rem;
 }
+
+// button.more-advice.btn.btn-primary {
+//   width: 100%;
+//   padding: 20px;
+//   background-color: $teal-color;
+//   color: white;
+//   font-size: 2rem;
+//   font-weight: $font-weight-bold;
+//   margin-bottom: 1rem;
+// }
 
 .feedback-icon {
   width: 26px;
@@ -136,18 +156,6 @@ button.more-advice.btn.btn-primary {
   font-weight: $font-weight-light;
 }
 
-.what-is-redundancy-pay.container-fluid {
-  background-color: $content-box-color;
-  box-shadow: $box-shadow;
-  margin: 1rem auto;
-}
-
-.claim-redundancy-pay {
-  background-color: $content-box-color;
-  box-shadow: $box-shadow;
-  margin: 1rem auto;
-}
-
 .law-says.container-fluid {
   background-color: $purple-color;
   color: white;
@@ -164,30 +172,59 @@ button.more-advice.btn.btn-primary {
   margin: 1rem auto;
 }
 
-.what-is-redundancy-pay-made-of.container-fluid {
-  background-color: $content-box-color;
-  box-shadow: $box-shadow;
-  margin: 1rem auto;
-}
-
 .calculation-image {
   background: url("../images/calculation-567px.jpg") no-repeat;
   background-size: contain;
   background-position: center;
   min-height: 11rem;;
+  background-color: #a01f5c;
+}
+
+span.calc-icon {
+  content: url("../images/calculator.svg");
+  width: 40px;
+  height: 40px;
+}
+
+.top-tip {
+  margin: 1rem auto;
+
+  p {
+    display: inline;
+  }
+}
+
+.how-much-paid button {
+  width: 100%;
+  min-height:  100px;
+  display: flex;
+  margin: 2rem auto;
+}
+
+span.idea-icon {
+  content: url("../images/lightbulb.svg");
+}
+
+span.info-icon {
+  content: url("../images/information.svg");
+}
+
+.more-info h3 {
+  display: inline-block;
 }
 
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   .calculation-image {
-    background: url("../images/calculation-768px.jpg");
-    background-size: cover;
+    background: url("../images/calculation-768px.jpg") no-repeat;
+    background-color: #a01f5c;
+    background-size: contain;
     background-position: center;
     min-height: 9rem;
   }
 
   button.more-advice.btn.btn-primary {
-    width: 33%;
+    width: 49%;
     padding: 10px;
     background-color: $teal-color;
     color: white;
@@ -195,4 +232,32 @@ button.more-advice.btn.btn-primary {
     font-weight: $font-weight-bold;
     margin-bottom: 1rem;
   }
+
+  .content-grid {
+    width: 47%;
+    padding: 53px;
+    background-color: $content-box-color;
+    color: $teal-color;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    margin-right: 18px;
+    border: none;
+    box-shadow: $box-shadow;
+  }
+
+  .how-much-paid button {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 968px) {
+  .what-is-redundancy-pay-made-of button.more-advice.btn.btn-primary {
+    width: 33%;
+  }
+
+  .how-much-paid button {
+    width: 33%;
+  }
+
 }
