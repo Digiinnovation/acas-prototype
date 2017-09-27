@@ -1,13 +1,13 @@
 @font-face {
   font-family: 'century';
-  src: url('../fonts/Century.ttf');
+  src: url('../fonts/Century');
 }
 
 $supplementary-colour: #a4145b;
 
 $header1-size: 36px;
 
-$font-family-main: 'Muli', sans-serif;
+$font-family-main: 'century', sans-serif;
 $font-color-white: #dbdbdb;
 $font-weight-bold: 600;
 $font-weight-light: 200;
@@ -92,7 +92,8 @@ a:hover {
 }
 
 .tag-button:hover {
-  background : #595959;
+  background : #595959 !important;
+  color: red;
 }
 
 .tag-button:active {

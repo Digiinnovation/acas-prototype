@@ -157,12 +157,12 @@ h1.redundancy-title {
 
 .yes-claim {
   background-color: #e2ede7;
-  margin: 1rem auto;
+  margin: 2rem auto;
 }
 
 .no-claim {
   background-color: #f3e2e0;
-  margin: 1rem auto;
+  margin: 2rem auto;
 }
 
 .calculation-image {
@@ -171,6 +171,7 @@ h1.redundancy-title {
   background-position: center;
   min-height: 11rem;;
   background-color: #a01f5c;
+  margin: 2rem auto;
 }
 
 span.calc-icon {
@@ -221,6 +222,7 @@ span.plus-icon {
 }
 
 .different-advice-options a{
+  width: 100%;
   background-color: $dark-grey;
   color: white;
   font-weight: $font-weight-light;
@@ -236,6 +238,12 @@ a.feedback {
   margin: 2rem auto;
   display: inline-block;
 }
+
+button.more-advice.btn.content-grid:hover {
+      font-weight: $font-weight-bold;
+      color: $clickable-hover;
+}
+
 
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
@@ -262,6 +270,11 @@ a.feedback {
   }
   .content-grid {
     width: 47%;
+  }
+
+  button.more-advice.btn.content-grid {
+    padding: 20px 0px 50px 30px;
+    text-align: left;
   }
 }
 
