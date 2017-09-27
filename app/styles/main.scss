@@ -7,7 +7,7 @@ $icon-font-path: '../fonts/';
 
 
 @import "app/styles/header.scss";
-@import "app/styles/redundancy/redundancy-main.scss";
+// @import "app/styles/redundancy/redundancy-main.scss";
 
 .browserupgrade {
   margin: 0.2em 0;
@@ -122,8 +122,6 @@ button.btn.btn-primary.dropdown-toggle {
   background-color: $dark-grey;
   border-color: $dark-grey;
   width: 100%;
-  // padding: 0 20px 0px;
-  // margin-right: 0;
 }
 
 .dropdown-toggle:focus {
@@ -391,5 +389,4 @@ a {
   .more-advice-options * {
     margin: 1rem 1rem;
   }
-
 }
