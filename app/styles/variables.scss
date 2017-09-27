@@ -78,20 +78,8 @@ body {
   color: $tags-text-footer-color;
 }
 
-a {
-  font-weight: $font-weight-bold;
-  font-size: 19px;
-  color: $teal-color;
-  text-decoration: underline;
-}
-
 a:hover {
   text-decoration: none;
-}
-
-a:visited {
-  font-weight: $font-weight-bold;
-  color: $supplementary-colour;
 }
 
 .tag-button {
@@ -159,4 +147,23 @@ lg-button:active {
 
 .sm-button:hover {
   background-color: #016168;
+}
+
+.content-box {
+  background-color: $content-box-color;
+  box-shadow: $box-shadow;
+  margin: 2rem auto;
+}
+
+.content-grid {
+  width: 100%;
+  padding: 53px;
+  background-color: $content-box-color;
+  color: $teal-color;
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  margin-right: 18px;
+  border: none;
+  box-shadow: $box-shadow;
 }

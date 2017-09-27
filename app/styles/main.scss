@@ -17,7 +17,7 @@ $icon-font-path: '../fonts/';
 }
 
 body > * {
-  font-family: $font-family-muli;
+  font-family: $font-family-main;
 }
 
 /* Space out content a bit */
@@ -59,9 +59,15 @@ body {
   border-bottom: 1px solid #e5e5e5;
   background-image: url("../images/banner.jpg");
   background-size: cover;
+  background-color: $supplementary-colour;
+  animation: fadein 2s;
   padding-top: 0;
   padding-bottom: 3rem;
   margin-bottom: 0;
+}
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
 
 .jumbotron .btn {
@@ -72,10 +78,11 @@ body {
 .slogan {
   margin-left: 5.5rem;
   width: 80%;
+  animation: fadein 4s;
 }
 
 h1#slogan-title {
-  font-family: $font-family-muli;
+  font-family: $font-family-main;
   font-weight: $font-weight-light;
   font-size: 5rem;
   text-align: left;
@@ -85,7 +92,7 @@ h1#slogan-title {
 }
 
 p.slogan-lead {
-  font-family: $font-family-muli;
+  font-family: $font-family-main;
   font-weight: $font-weight-light;
   font-size: 18px;
   text-align: left;
@@ -188,7 +195,7 @@ button.btn.btn-primary.dropdown-toggle {
 
 .show-more-advice a {
   font-size: 2rem;
-  font-family: $font-family-muli;
+  font-family: $font-family-main;
   font-weight: $font-weight-bold;
 }
 
@@ -246,7 +253,7 @@ footer .row {
 }
 
 footer .row h3 {
-  font-family: $font-family-muli;
+  font-family: $font-family-main;
   font-weight: $font-weight-light;
   font-size: 2.5rem;
 }
@@ -289,7 +296,6 @@ a {
 .btn-primary {
   color: #fff;
   background-color: $clickable-color;
-  // border-color: #2e6da4;
   border: none;
   border-radius: 0px;
 }
@@ -351,7 +357,7 @@ a {
   }
 
   p.slogan-lead {
-    font-family: $font-family-muli;
+    font-family: $font-family-main;
     font-weight: $font-weight-light;
     font-size: 18px;
     text-align: left;
