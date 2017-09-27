@@ -12,6 +12,12 @@ h1.redundancy-title {
   color:white;
   font-size: $header1-size;
 }
+
+.video iframe {
+  border-radius: 3px;
+  animation: fadein 4s;
+}
+
 .advice-title p.redundancy  {
   color: $teal-color;
   font-weight: 500;
@@ -254,7 +260,7 @@ a.feedback {
   .how-much-paid button {
     width: 50%;
   }
-    .content-grid {
+  .content-grid {
     width: 47%;
   }
 }

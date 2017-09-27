@@ -60,20 +60,21 @@ body {
   background-image: url("../images/banner.jpg");
   background-size: cover;
   background-color: $supplementary-colour;
-  animation: fadein 2s;
+  animation: fadein 1s;
   padding-top: 0;
   padding-bottom: 3rem;
   margin-bottom: 0;
 }
 @keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+  from { opacity: 0; }
+  to   { opacity: 1; }
 }
 
 .jumbotron .btn {
   padding: 14px 24px;
   font-size: 21px;
 }
+
 
 .slogan {
   margin-left: 5.5rem;
@@ -141,9 +142,6 @@ button.btn.btn-primary.dropdown-toggle {
   border-color: $dark-grey !important;
 }
 
-.advice-title .dropdown-menu:hover {
-}
-
 .btn .caret {
   margin-left: 70px;
 }
@@ -162,6 +160,7 @@ button.btn.btn-primary.dropdown-toggle {
   font-weight: $font-weight-light;
   display:inline-block;
 }
+
 .popular-advice-options {
   height: 100%;
 }
@@ -352,6 +351,13 @@ a {
     padding: 4rem;
   }
 
+  .popular-advice-options {
+    animation: fadein 1s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+  }
+
+
   .btn-lg {
     min-width: 267px;
   }
@@ -373,11 +379,19 @@ a {
   .advice-title .dropdown {
     width: 210px;
     display: inline-block;
-    float: right;
   }
+
+  .advice-title p {
+    width: 75%;
+  }
+
 
   .popular-advice {
     margin-bottom: 7rem;
+
+    .btn {
+      width: 260px;
+    }
   }
 
   .col.text-center.advice {
