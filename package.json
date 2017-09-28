@@ -42,5 +42,8 @@
         "single"
       ]
     }
+  },
+  "dependencies": {
+    "cookieconsent": "^3.0.4"
   }
 }
