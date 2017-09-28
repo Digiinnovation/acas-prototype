@@ -11,6 +11,7 @@ h1.redundancy-title {
   font-weight: $font-weight-light;
   color:white;
   font-size: $header1-size;
+  margin-top: 6rem;
 }
 
 .video iframe {
@@ -35,11 +36,12 @@ h1.redundancy-title {
   color:white;
   font-weight: $font-weight-bold;
   top:50%;
-  margin-top:50px;
+  margin-top:76px;
 }
 .jumbotron.redundancy {
   background-image: none;
   background-color: $purple-color;
+  min-height: 15rem;
 }
 
 .advice-title.short-guide {
@@ -48,6 +50,11 @@ h1.redundancy-title {
   margin-bottom: 2rem;
   box-shadow: $box-shadow;
 }
+
+.redundancy-advice {
+  margin-top: 5rem;
+}
+
 .redundancy-advice-options.row {
   margin: 5rem 0;
 }
@@ -86,11 +93,13 @@ h1.redundancy-title {
 .menu-bar {
   background-color: $content-box-color;
   border-bottom: solid #eaeaea 1px;
+  padding: 2rem 0;
 }
 
 .utility p {
   color: $teal-color;
   display: inline-block;
+  margin-right: 2rem;
 }
 
 .social-icons p {
@@ -267,7 +276,8 @@ button.more-advice.btn.content-grid:hover {
     width: 50%;
   }
   .content-grid {
-    width: 47%;
+    width: 48%;
+    margin-bottom: 3rem;
   }
 
   button.more-advice.btn.content-grid {
