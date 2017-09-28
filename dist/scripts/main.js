@@ -1,0 +1,1 @@
+"use strict";$("#nav-menu-button").click(function(){document.getElementsByClassName("collapse navbar-collapse")});
