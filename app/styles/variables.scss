@@ -1,13 +1,10 @@
-@font-face {
-  font-family: 'century';
-  src: url('../fonts/Century');
-}
+@import url('https://fonts.googleapis.com/css?family=Muli');
 
 $supplementary-colour: #a4145b;
 
 $header1-size: 36px;
 
-$font-family-main: 'century', sans-serif;
+$font-family-main: 'Muli', sans-serif;
 $font-color-white: #dbdbdb;
 $font-weight-bold: 600;
 $font-weight-light: 200;
