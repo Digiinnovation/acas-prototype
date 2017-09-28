@@ -37,16 +37,6 @@ h1.redundancy-title {
   top:50%;
   margin-top:50px;
 }
-
-.email-icon {
-  width: 26px;
-  height: 20px;
-  content: url("../../images/email.svg");
-  background-repeat: no-repeat;;
-  color: white;
-  margin-right: 1rem;
-}
-
 .jumbotron.redundancy {
   background-image: none;
   background-color: $purple-color;
@@ -132,11 +122,18 @@ h1.redundancy-title {
   margin-right: 1rem;
 }
 
+.email-white-icon {
+  content: url("../images/email.svg");
+  color: $clickable-color;
+  margin-right: 1rem;
+}
+
 .email-green-icon {
   content: url("../images/email-green.svg");
   color: $clickable-color;
   margin-right: 1rem;
 }
+
 
 .print-icon {
   content: url("../images/print.svg");
