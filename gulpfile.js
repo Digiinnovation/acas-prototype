@@ -5,11 +5,25 @@ const browserSync = require('browser-sync').create();
 const del = require('del');
 const wiredep = require('wiredep').stream;
 const runSequence = require('run-sequence');
+const sass = require('gulp-sass');
 
 const $ = gulpLoadPlugins();
 const reload = browserSync.reload;
 
 let dev = true;
+
+var input = './app/styles/*.scss';
+var output = './dist/styles/';
+
+gulp.task('sass', function () {
+  return gulp
+    // Find all `.scss` files from the `stylesheets/` folder
+    .src(input)
+    // Run Sass on those files
+    .pipe(sass())
+    // Write the resulting CSS in the output folder
+    .pipe(gulp.dest(output));
+});
 
 gulp.task('styles', () => {
   return gulp.src('app/styles/*.scss')
@@ -166,7 +180,7 @@ gulp.task('wiredep', () => {
     .pipe(gulp.dest('app'));
 });
 
-gulp.task('build', ['lint', 'html', 'images', 'fonts', 'extras'], () => {
+gulp.task('build', ['lint', 'html', 'images', 'fonts', 'extras', 'sass'], () => {
   return gulp.src('dist/**/*').pipe($.size({title: 'build', gzip: true}));
 });
 
