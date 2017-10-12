@@ -28,7 +28,8 @@
 
 body {
   font-family: "Muli", sans-serif;
-  color: #706f6f; }
+  color: #706f6f;
+  font-size: 2rem; }
 
 a:hover {
   text-decoration: none; }
@@ -144,9 +145,6 @@ h1.redundancy-title {
   padding: 4rem;
   margin-bottom: 2rem;
   box-shadow: 1px 1px 1px 1px #dcdcdc; }
-
-.redundancy-advice {
-  margin-top: 5rem; }
 
 .redundancy-advice-options.row {
   margin: 5rem 0; }

@@ -28,7 +28,8 @@
 
 body {
   font-family: "Muli", sans-serif;
-  color: #706f6f; }
+  color: #706f6f;
+  font-size: 2rem; }
 
 a:hover {
   text-decoration: none; }
