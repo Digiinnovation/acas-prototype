@@ -1,144 +1,149 @@
-
-$font-family-muli: 'Muli', sans-serif;
+$font-family-muli: 'Muli',
+sans-serif;
 $font-weight-light: 200;
 $clickable-color: #007a8a;
-
-
 .navbar-collapse {
-  padding: 0;
+    padding: 0;
 }
 
 .navbar-brand {
-  padding: 0;
-  font-size: 1rem;
-  height: 50px;
+    padding: 0;
+    font-size: 1rem;
+    height: 50px;
 }
+
+.navbar-brand>img {
+    width: 25rem;
+    height: 6.5rem;
+}
+
 .navbar {
-  margin-bottom: 0;
-  border: none;
+    margin-bottom: 0;
+    border: none;
 }
 
 p.brand-lead {
-  font-size: 22px;
-  font-family: $font-family-muli;
-  font-weight: $font-weight-light;
-  color : #706f6f;
-  width: 40%;
+    font-size: 22px;
+    font-family: $font-family-muli;
+    font-weight: $font-weight-light;
+    color: #706f6f;
+    width: 40%;
 }
 
 .search-form input.form-control {
-  border: none;
-  box-shadow: none;
+    border: none;
+    box-shadow: none;
 }
 
 .acas-btn {
-  border-radius: 30px;
-  border: solid 1px #e0e0e0;
+    border-radius: 30px;
+    border: solid 1px #e0e0e0;
 }
 
 li.nav-item {
-  background-color: white;
-  border-left: solid 2px white;
-  border-right: solid 2px white;
+    background-color: white;
+    border-left: solid 2px white;
+    border-right: solid 2px white;
 }
 
 a.nav-link {
-  color: #6d6c6d;
-  background-color: #e0e0e0;
+    color: #6d6c6d;
+    background-color: #e0e0e0;
 }
 
-.nav-pills > li > a {
-  border-radius: 0px;
-  background-color: #e0e0e0;
-  padding: 15px 0px;
-  font-size: 2rem;
-  font-family: $font-family-muli;
-  font-weight: $font-weight-light;
+a.btn.pill.tag-button {
+    font-size: 2rem;
 }
 
-.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
-  background-color: white;
-  color: #007a8a;
-  font-size: 2.0rem;
-  font-weight: 400;
+.nav-pills>li>a {
+    border-radius: 0px;
+    background-color: #e0e0e0;
+    padding: 15px 0px;
+    font-size: 2.5rem;
+    font-family: $font-family-muli;
+    font-weight: $font-weight-light;
+}
+
+.nav-pills>li.active>a,
+.nav-pills>li.active>a:hover,
+.nav-pills>li.active>a:focus {
+    background-color: white;
+    color: #007a8a;
+    font-weight: 400;
 }
 
 .home-icon {
-  width: 26px;
-  height: 20px;
-  content: url("../images/home.svg");
-  background-repeat: no-repeat;;
-  color: $clickable-color;
-  margin-right: 1rem;
+    width: 26px;
+    height: 20px;
+    content: url("../images/home.svg");
+    background-repeat: no-repeat;
+    ;
+    color: $clickable-color;
+    margin-right: 1rem;
 }
 
 .help-icon {
-  width: 26px;
-  height: 20px;
-  content: url("../images/question-mark.svg");
-  background-repeat: no-repeat;;
-  color: $clickable-color;
-  margin-right: 1rem;
+    width: 26px;
+    height: 20px;
+    content: url("../images/question-mark.svg");
+    background-repeat: no-repeat;
+    ;
+    color: $clickable-color;
+    margin-right: 1rem;
 }
 
 @media screen and (max-width: 768px) {
-
-  a.acas-logo__img {
-    width: 100%;
-    height: 100%;
-  }
-  .brand {
-    width: 100%;
-  }
-
-  .brand img {
-    width: 80%;
-    margin: 0 auto;
-  }
-
-  p.brand-lead {
-    width: 100%;
-    padding: 3rem;
-  }
-
-  button.acas-btn.btn.btn-default {
-    width: 100%;
-    line-height: 0;
-  }
-
-  .navbar-form {
-    margin: 0;
-  }
-
-  .navbar {
-    min-height: 0;
-  }
+    a.acas-logo__img {
+        width: 100%;
+        height: 100%;
+    }
+    .brand {
+        width: 100%;
+    }
+    .brand img {
+        width: 80%;
+        margin: 0 auto;
+    }
+    p.brand-lead {
+        width: 100%;
+        padding: 3rem;
+    }
+    button.acas-btn.btn.btn-default {
+        width: 100%;
+        line-height: 0;
+    }
+    .navbar-form {
+        margin: 0;
+    }
+    .navbar {
+        min-height: 0;
+    }
 }
 
 @media screen and (min-width: 768px) {
-  a.acas-logo__img {
-    display: flex;
-    vertical-align: top;
-    margin-top: 12px;
-    width: 50%;
-  }
-  .brand {
-    height: 10rem;
-    width: 99%;
-    margin: 0 auto
-  }
-  form.search-form.navbar-form.navbar-right {
-    margin-right: 0;
-  }
+    a.acas-logo__img {
+        display: flex;
+        vertical-align: top;
+        margin-top: 12px;
+        width: 50%;
+    }
+    .brand {
+        height: 10rem;
+        width: 99%;
+        margin: 0 auto
+    }
+    form.search-form.navbar-form.navbar-right {
+        margin-right: 0;
+    }
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-  .brand {
-    width: 100%;
-    margin: 0;
-  }
-  .navbar-brand > img {
-    display: block;
-    width: 50%;
-  }
+    .brand {
+        width: 100%;
+        margin: 0;
+    }
+    .navbar-brand>img {
+        display: block;
+        width: 50%;
+    }
 }

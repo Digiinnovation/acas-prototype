@@ -1,265 +1,271 @@
 <!doctype html>
 <html class="no-js" lang="en-us">
-<head>
-  <meta charset="utf-8">
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>ACAS Prototype</title>
-  <link rel="apple-touch-icon" href="apple-touch-icon.png">
-  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
-  <link rel="stylesheet" href="styles/main.css">
-  <link rel="stylesheet" href="styles/redundancy-main.css">
-  <script src="/bower_components/modernizr/modernizr.js"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
-  <script>
-  window.addEventListener("load", function(){
-    window.cookieconsent.initialise({
-      "palette": {
-        "popup": {
-          "background": "#aa0000",
-          "text": "#ffdddd"
-        },
-        "button": {
-          "background": "transparent",
-          "text": "#ff0000",
-          "border": "#ff0000"
-        }
-      },
-      "showLink": false,
-      "position": "top",
-      "static": true,
-      "content": {
-        "message": "This website is a DEMO SITE!!\nPlease go to www.acas.org.uk if you're seeking advice.",
-        "dismiss": "CLICK here that you understand that this is a DEMO"
-      }
-    })});
-    </script>
 
-  </head>
-  <body>
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ACAS Prototype</title>
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/redundancy-main.css">
+    <script src="/bower_components/modernizr/modernizr.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+    <script>
+        window.addEventListener("load", function() {
+            window.cookieconsent.initialise({
+                "palette": {
+                    "popup": {
+                        "background": "#aa0000",
+                        "text": "#ffdddd"
+                    },
+                    "button": {
+                        "background": "transparent",
+                        "text": "#ff0000",
+                        "border": "#ff0000"
+                    }
+                },
+                "showLink": false,
+                "position": "top",
+                "static": true,
+                "content": {
+                    "message": "This website is a DEMO SITE!!\nPlease go to www.acas.org.uk if you're seeking advice.",
+                    "dismiss": "CLICK here that you understand that this is a DEMO"
+                }
+            })
+        });
+    </script>
+</head>
+
+<body>
     <!--[if IE]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
     <div class="brand">
-      <a href="#" class="navbar-brand acas-logo__img"><img src="images/acas-logo.svg" alt="ACAS">
-        <p class="brand-lead">We're the official, impartial source for advice at work</p></a>
+        <a href="#" class="navbar-brand acas-logo__img"><img src="images/acas-logo.svg" alt="ACAS">
+            <p class="brand-lead">We're the official, impartial source for advice at work</p>
+        </a>
         <form class="search-form navbar-form navbar-right" role="search">
-          <div class="form-group">
-            <button type="submit" class="acas-btn btn btn-default">
-              <input type="text" class="form-control" placeholder="Search ACAS">
+            <div class="form-group">
+                <button type="submit" class="acas-btn btn btn-default">
+              <input type="text" class="form-control" placeholder="Search Acas">
               <span class="glyphicon glyphicon-search"></span>
             </button>
-          </div>
+            </div>
         </form>
-      </div>
-      <!-- Image and text -->
-      <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+    </div>
+    <!-- Image and text -->
+    <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
         <div class="navbar-collapse" id="navbarTogglerDemo02">
-          <ul class="nav nav-pills nav-justified">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html"><span class="home-icon"></span> Home</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Free Advice</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Training</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Consult</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"><span class="help-icon"></span>Help</a>
-            </li>
-          </ul>
+            <ul class="nav nav-pills nav-justified">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html"><span class="home-icon"></span> Home</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Free Advice</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Training</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Consult</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><span class="help-icon"></span>Help</a>
+                </li>
+            </ul>
         </div>
-      </nav>
-      <div class="body-container">
-        <div class="jumbotron redundancy">
-          <div class="row">
-            <h1 class="redundancy-title col-sm-6">Redundancy</h1>
-            <a class="email-signup col-sm-6" href="#"><span class="email-white-icon icon"></span>Sign up for emails about redundancy</a>
-          </div>
-          <div class="row marketing">
-            <div class="col-lg-6">
-            </div>
-          </div>
-        </div>
+    </nav>
+    <div class="body-container">
         <div class="menu-bar container-fluid">
-          <div class="row">
-            <div class="col-sm-8">
-              <div class="utility">
-                <p><span class="icon save-icon"></span> Save page </p>
-                <p><span class="icon email-green-icon"></span> Email page </p>
-                <p><span class="icon print-icon"></span> Print page </p>
-              </div>
+            <div class="row">
+                <div class="col-sm-8">
+                    <div class="utility">
+                        <p><span class="icon save-icon"></span> Save page </p>
+                        <p><span class="icon email-green-icon"></span> Email page </p>
+                        <p><span class="icon print-icon"></span> Print page </p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="social-icons">
+                        <p>Share this page</p>
+                        <span class="icon linkedin-icon"></span>
+                        <span class="icon twitter-icon"></span>
+                        <span class="icon facebook-icon"></span>
+                    </div>
+                </div>
             </div>
-            <div class="col-sm-4">
-              <div class="social-icons">
-                <p>Share this page</p>
-                <span class="icon linkedin-icon"></span>
-                <span class="icon twitter-icon"></span>
-                <span class="icon facebook-icon"></span>
-              </div>
+        </div>
+        <div class="jumbotron redundancy">
+            <div class="row">
+                <h1 class="redundancy-title col-sm-6">Redundancy</h1>
+                <a class="email-signup col-sm-6" href="#"><span class="email-grey-icon icon"></span>Sign up for emails about redundancy</a>
             </div>
-          </div>
+            <div class="row marketing">
+                <div class="col-lg-6">
+                </div>
+            </div>
         </div>
         <div class="container">
-          <div class="redundancy-advice">
-            <div class="title">
-              <span class="help-icon"></span><h1>The big questions</h1>
+            <div class="redundancy-advice">
+                <div class="title">
+                    <span class="help-icon"></span>
+                    <h1>The big questions</h1>
+                </div>
+                <div class="what-is-redundancy-pay container-fluid content-box">
+                    <h3>What is redundancy pay?</h3>
+                    <p>Redundancy payment is money employees are entitled to when they lose their job through redundancy.</p>
+                    <div class="law-says container-fluid">
+                        <h4>What does the law say?</h4>
+                        <p>Employers must pay employees when they are made redundant, uness their contract says something different.</p>
+                    </div>
+                </div>
+                <div class="claim-redundancy-pay container-fluid content-box">
+                    <h3>Can I claim redundancy pay</h3>
+                    <div class="yes-claim container-fluid">
+                        <h4>Yes</h4>
+                        <p>If you have been an employee at the same place for two years or more</br>
+                            • That can include time off for parental leave or sick leave</br>
+                            • And swapping jobs in the same firm</br>
+                            • It’s fine if you’ve been part-time too</br>
+                            • But it cannot include any time you’ve spent training</p>
+                    </div>
+                    <div class="no-claim container-fluid">
+                        <h4>No</h4>
+                        <p>
+                            If you’re a...</br>
+                            • Casual worker, like a ‘zero hour’ contractor, a freelancer, or anyone who isn’t an official employee, paying tax at source</br>
+                            • Former registered dock worder or share fisherman</br>
+                            • Crown servant or member of the armed forces or police services</br>
+                            • An apprentice who’s still training</br>
+                            • A domestic servant who is a member of the employer’s immediate family </br>
+                        </p>
+                    </div>
+                </div>
+                <div class="what-is-redundancy-pay-made-of container-fluid content-box">
+                    <h3>What is redundancy pay made up of?</h3>
+                    <p>Redundancy pay is made up of different elements outlined here. </p>
+                    <div class="calculation-image"></div>
+                    <p>How much you get depends on your age. To work it out roughly, first, tell us how old you are...</p>
+                    <div class="row"></div>
+                    <div class="col">
+                        <a href=""><button type="button" class="more-advice btn btn-primary">22 or under</button></a>
+                        <a href=""><button type="button" class="more-advice btn btn-primary">23 to 41</button></a>
+                        <a href=""><button type="button" class="more-advice btn btn-primary ">41+</button></a>
+                    </div>
+                </div>
+                <div class="how-much-paid container-fluid content-box">
+                    <h3>How much will I get paid</h3>
+                    <p>To work out what you’ll get yourself, use the government’s redundancy pay calculator, on the government website.</p>
+                    <button type="button" class="btn btn-primary"><span class="calc-icon icon"></span>Use the government's calculator </br>(opens in a new browser window)</button>
+                    <div class="top-tip">
+                        <span class="idea-icon icon"></span>
+                        <p>Top tip: Always check your contract. It might say something different. If you’re not sure, ask the person who employed you for a copy. </p>
+                    </div>
+                </div>
+                <div class="when-will-paid container-fluid content-box">
+                    <h3>When will I get paid?</h3>
+                    <p>You’ll get it all in one lump sum, after you have worked your notice period. If you just walk out without working your notice, you won’t get paid!</p>
+                </div>
+                <div class="more-info container-fluid">
+                    <span class="info-icon icon"></span>
+                    <h3>More information</h3>
+                    <div class="more-info-content notice-periods content-box">
+                        <h3>Notice periods</h3><span class="icon plus-icon"></span>
+                    </div>
+                    <div class="more-info-content notice-periods content-box">
+                        <h3>When employers refuse to pay</h3><span class="icon plus-icon"></span>
+                    </div>
+                    <div class="more-info-content notice-periods content-box">
+                        <h3>When pay and hourse change (eg overtime)</h3><span class="icon plus-icon"></span>
+                    </div>
+                    <div class="more-info-content notice-periods content-box">
+                        <h3>Being laid off versus redundancy - what's the difference</h3><span class="icon plus-icon"></span>
+                    </div>
+                    <div class="more-info-content notice-periods content-box">
+                        <h3>Zero hour contract and redundancy</h3><span class="icon plus-icon"></span>
+                    </div>
+                </div>
+                <div class="need-a-different-advice container-fluid content-box">
+                    <h3>Need different advice</h3>
+                    <div class="advice-options">
+                        <div class="different-advice-options">
+                            <div class="col text-center advice"><a class="btn pill" href="redundancy.html">Redundancy</a></div>
+                            <div class="col text-center advice"><a class="btn pill" href="#">Minimum Wage</a></div>
+                            <div class="col text-center advice"><a class="btn pill" href="#">Being sacked</a></div>
+                            <div class="col text-center advice"><a class="btn pill" href="#">Work out holidays</a></div>
+                            <div class="col text-center advice"><a class="btn pill" href="#">Paying tax</a></div>
+                            <div class="col text-center advice"><a class="btn pill" href="#">Age discrimination</a></div>
+                            <div class="col text-center advice"><a class="btn pill" href="#">Being bullied</a></div>
+                            <div class="col text-center advice"><a class="btn pill" href="#">Paying tax</a></div>
+                            <div class="col text-center advice"><a class="btn pill" href="#">Holidays training</a></div>
+                            <div class="col text-center advice"><a class="btn pill" href="#">Your rights - problems</a></div>
+                            <div class="col text-center advice"><a class="btn pill" href="#">Age discrimination</a></div>
+                        </div>
+                    </div>
+                </div>
+                <a class="feedback" href=""><span class="feedback-icon"></span>Have you got feedback about this page?</a>
             </div>
-            <div class="what-is-redundancy-pay container-fluid content-box">
-              <h3>What is redundancy pay?</h3>
-              <p>Redundancy payment is money employees are entitled to when they lose their job through redundancy.</p>
-              <div class="law-says container-fluid">
-                <h4>What does the law say?</h4>
-                <p>Employers must pay employees when they are made redundant, uness their contract says something different.</p>
-              </div>
-            </div>
-            <div class="claim-redundancy-pay container-fluid content-box">
-              <h3>Can I claim redundancy pay</h3>
-              <div class="yes-claim container-fluid">
-                <h4>Yes</h4>
-                <p>If you have been an employee at the same place for two years or more</br>
-                  • That can include time off for parental leave or sick leave</br>
-                  • And swapping jobs in the same firm</br>
-                  • It’s fine if you’ve been part-time too</br>
-                  • But it cannot include any time you’ve spent training</p>
-                </div>
-                <div class="no-claim container-fluid">
-                  <h4>No</h4>
-                  <p>
-                    If you’re a...</br>
-                    • Casual worker, like a ‘zero hour’ contractor, a freelancer, or anyone who isn’t an official
-                    employee, paying tax at source</br>
-                    • Former registered dock worder or share fisherman</br>
-                    • Crown servant or member of the armed forces or police services</br>
-                    • An apprentice who’s still training</br>
-                    • A domestic servant who is a member of the employer’s immediate family </br>
-                  </p>
-                </div>
-              </div>
-              <div class="what-is-redundancy-pay-made-of container-fluid content-box">
-                <h3>What is redundancy pay made up of?</h3>
-                <p>Redundancy pay is made up of different elements outlined here. </p>
-                <div class="calculation-image"></div>
-                <p>How much you get depends on your age. To work it out roughly, first, tell us how old you are...</p>
-                <div class="row"></div>
-                <div class="col">
-                  <a href=""><button type="button" class="more-advice btn btn-primary">22 or under</button></a>
-                  <a href=""><button type="button" class="more-advice btn btn-primary">23 to 41</button></a>
-                  <a href=""><button type="button" class="more-advice btn btn-primary ">41+</button></a>
-                </div>
-              </div>
-              <div class="how-much-paid container-fluid content-box">
-                <h3>How much will I get paid</h3>
-                <p>To work out what you’ll get yourself, use the government’s redundancy pay calculator, on the government website.</p>
-                <button type="button" class="btn btn-primary"><span class="calc-icon icon"></span>Use the government's calculator </br>(opens in a new browser window)</button>
-                <div class="top-tip">
-                  <span class="idea-icon icon"></span><p>Top tip: Always check your contract. It might say something different. If you’re not sure, ask the person who employed you for a copy. </p>
-                </div>
-              </div>
-              <div class="when-will-paid container-fluid content-box">
-                <h3>When will I get paid?</h3>
-                <p>You’ll get it all in one lump sum, after  you have worked your notice period. If you just walk out without working your notice, you won’t get paid!</p>
-              </div>
-              <div class="more-info container-fluid">
-                <span class="info-icon icon"></span><h3>More information</h3>
-                <div class="more-info-content notice-periods content-box">
-                  <h3>Notice periods</h3><span class="icon plus-icon"></span>
-                </div>
-                <div class="more-info-content notice-periods content-box">
-                  <h3>When employers refuse to pay</h3><span class="icon plus-icon"></span>
-                </div>
-                <div class="more-info-content notice-periods content-box">
-                  <h3>When pay and hourse change (eg overtime)</h3><span class="icon plus-icon"></span>
-                </div>
-                <div class="more-info-content notice-periods content-box">
-                  <h3>Being laid off versus redundancy - what's the difference</h3><span class="icon plus-icon"></span>
-                </div>
-                <div class="more-info-content notice-periods content-box">
-                  <h3>Zero hour contract and redundancy</h3><span class="icon plus-icon"></span>
-                </div>
-              </div>
-              <div class="need-a-different-advice container-fluid content-box">
-                <h3>Need different advice</h3>
-                <div class="advice-options">
-                  <div class="different-advice-options">
-                    <div class="col text-center advice"><a class="btn pill" href="redundancy.html">Redundancy</a></div>
-                    <div class="col text-center advice"><a class="btn pill" href="#">Minimum Wage</a></div>
-                    <div class="col text-center advice"><a class="btn pill" href="#">Being sacked</a></div>
-                    <div class="col text-center advice"><a class="btn pill" href="#">Work out holidays</a></div>
-                    <div class="col text-center advice"><a class="btn pill" href="#">Paying tax</a></div>
-                    <div class="col text-center advice"><a class="btn pill" href="#">Age discrimination</a></div>
-                    <div class="col text-center advice"><a class="btn pill" href="#">Being bullied</a></div>
-                    <div class="col text-center advice"><a class="btn pill" href="#">Paying tax</a></div>
-                    <div class="col text-center advice"><a class="btn pill" href="#">Holidays training</a></div>
-                    <div class="col text-center advice"><a class="btn pill" href="#">Your rights - problems</a></div>
-                    <div class="col text-center advice"><a class="btn pill" href="#">Age discrimination</a></div>
-                  </div>
-                </div>
-              </div>
-              <a class="feedback" href=""><span class="feedback-icon"></span>Have you got feedback about this page?</a>
-            </div>
-          </div>
         </div>
-        <footer class="footer">
-          <div class="container">
+    </div>
+    <footer class="footer">
+        <div class="container">
             <div class="row">
-              <div class="col-sm-4">
-                <h3>Our Services</h3>
-                <p>Free Advice</p>
-                <p>Training</p>
-                <p>Consultancy</p>
-              </div>
-              <div class="col-sm-4">
-                <h3>Help and support</h3>
-                <p>Advice line</p>
-                <p>Contact us</p>
-                <p>Document library</p>
-              </div>
-              <div class="col-sm-4">
-                <h3>About Acas</h3>
-                <p>About Acas</p>
-                <p>What's new</p>
-                <p>Newsletter signup</p>
-                <p>Careers</p>
-              </div>
+                <div class="col-sm-4">
+                    <h3>Our Services</h3>
+                    <p>Free Advice</p>
+                    <p>Training</p>
+                    <p>Consultancy</p>
+                </div>
+                <div class="col-sm-4">
+                    <h3>Help and support</h3>
+                    <p>Advice line</p>
+                    <p>Contact us</p>
+                    <p>Document library</p>
+                </div>
+                <div class="col-sm-4">
+                    <h3>About Acas</h3>
+                    <p>About Acas</p>
+                    <p>What's new</p>
+                    <p>Newsletter signup</p>
+                    <p>Careers</p>
+                </div>
             </div>
             <ul id="menu">
-              <li>Accessibility</li>
-              <li>ACAS privacy policy</li>
-              <li>Copyright</li>
-              <li>Legal Disclaimer</li>
+                <li>Accessibility</li>
+                <li>ACAS privacy policy</li>
+                <li>Copyright</li>
+                <li>Legal Disclaimer</li>
             </ul>
-          </div>
-        </footer>
-        <!-- build:js scripts/vendor.js -->
-        <!-- bower:js -->
-        <script src="/bower_components/jquery/dist/jquery.js"></script>
-        <script src="/bower_components/modernizr/modernizr.js"></script>
-        <!-- endbower -->
-        <!-- endbuild -->
-        <!-- build:js scripts/plugins.js -->
-        <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/affix.js"></script>
-        <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/alert.js"></script>
-        <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/dropdown.js"></script>
-        <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/tooltip.js"></script>
-        <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/modal.js"></script>
-        <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/transition.js"></script>
-        <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/button.js"></script>
-        <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/popover.js"></script>
-        <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/carousel.js"></script>
-        <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/scrollspy.js"></script>
-        <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/collapse.js"></script>
-        <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/tab.js"></script>
-        <!-- endbuild -->
-        <!-- build:js scripts/main.js -->
-        <script src="scripts/main.js"></script>
-        <!-- endbuild -->
-      </body>
-      </html>
+        </div>
+    </footer>
+    <!-- build:js scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="/bower_components/jquery/dist/jquery.js"></script>
+    <script src="/bower_components/modernizr/modernizr.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:js scripts/plugins.js -->
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/affix.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/alert.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/dropdown.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/tooltip.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/modal.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/transition.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/button.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/popover.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/carousel.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/scrollspy.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/collapse.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/tab.js"></script>
+    <!-- endbuild -->
+    <!-- build:js scripts/main.js -->
+    <script src="scripts/main.js"></script>
+    <!-- endbuild -->
+</body>
+
+</html>

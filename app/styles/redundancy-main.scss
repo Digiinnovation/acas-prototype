@@ -1,315 +1,317 @@
 @import "app/styles/variables.scss";
-
 h3 {
-  font-weight: $font-weight-light;
+    font-weight: $font-weight-light;
 }
+
 p {
-  font-weight: $font-weight-light;
+    font-weight: $font-weight-light;
 }
 
 h1.redundancy-title {
-  font-weight: $font-weight-light;
-  color:white;
-  font-size: $header1-size;
-  margin-top: 6rem;
+    font-weight: $font-weight-light;
+    color: $purple-color;
+    font-size: $header1-size;
+    margin-top: 6rem;
 }
 
 .video iframe {
-  border-radius: 3px;
-  animation: fadein 4s;
+    border-radius: 3px;
+    animation: fadein 4s;
 }
 
-.advice-title p.redundancy  {
-  color: $teal-color;
-  font-weight: 500;
-  font-family: $font-family-main;
-  font-size: 2.5rem;
-  display: block;
+.advice-title p.redundancy {
+    color: $teal-color;
+    font-weight: bold;
+    font-family: $font-family-main;
+    font-size: 2.5rem;
+    display: block;
 }
 
 .advice-title p.advice-lead {
-  color: $dark-grey;
-  font-size: 2rem;
+    color: $dark-grey;
+    font-size: 2rem;
 }
 
 .email-signup {
-  color:white;
-  font-weight: $font-weight-bold;
-  top:50%;
-  margin-top:76px;
+    color: $dark-grey;
+    font-weight: $font-weight-bold;
+    top: 50%;
+    margin-top: 76px;
 }
+
 .jumbotron.redundancy {
-  background-image: none;
-  background-color: $purple-color;
-  min-height: 15rem;
+    background-image: none;
+    background-color: white;
+    min-height: 15rem;
 }
 
 .advice-title.short-guide {
-  background-color: $content-box-color;
-  padding: 4rem;
-  margin-bottom: 2rem;
-  box-shadow: $box-shadow;
+    background-color: $content-box-color;
+    padding: 4rem;
+    margin-bottom: 2rem;
+    box-shadow: $box-shadow;
 }
 
 .redundancy-advice {
-  margin-top: 5rem;
+    margin-top: 5rem;
 }
 
 .redundancy-advice-options.row {
-  margin: 5rem 0;
+    margin: 5rem 0;
 }
+
 .what-is-redundancy-pay-made-of button {
-  width: 100%;
-  padding: 20px;
-  background-color: $teal-color;
-  color: white;
-  font-size: 2rem;
-  font-weight: $font-weight-bold;
-  margin-bottom: 1rem;
-}
-
-.feedback-icon {
-  width: 26px;
-  height: 20px;
-  content: url("../images/feedback.svg");
-  background-repeat: no-repeat;;
-  color: $clickable-color;
-  margin-right: 1rem;
-}
-
-.redundancy.show-more-advice {
-  margin: 5rem 0;
-}
-
-.right-arrow-icon {
-  width: 26px;
-  height: 20px;
-  content: url("../images/right-arrow.svg");
-  background-repeat: no-repeat;;
-  color: $clickable-color;
-  margin-right: 1rem;
-}
-
-.menu-bar {
-  background-color: $content-box-color;
-  border-bottom: solid #eaeaea 1px;
-  padding: 2rem 0;
-}
-
-.utility p {
-  color: $teal-color;
-  display: inline-block;
-  margin-right: 2rem;
-}
-
-.social-icons p {
-  display: inline-block;
-  color: $teal-color;
-}
-
-.linkedin-icon {
-  content: url("../images/linkedin.svg");
-  color: $clickable-color;
-  margin-right: 1rem;
-}
-
-.facebook-icon {
-  content: url("../images/facebook.svg");
-  color: $clickable-color;
-  margin-right: 1rem;
-}
-
-.twitter-icon {
-  content: url("../images/twitter.svg");
-  color: $clickable-color;
-  margin-right: 1rem;
-}
-
-.save-icon {
-  content: url("../images/save.svg");
-  color: $clickable-color;
-  margin-right: 1rem;
-}
-
-.email-white-icon {
-  content: url("../images/email.svg");
-  color: $clickable-color;
-  margin-right: 1rem;
-}
-
-.email-green-icon {
-  content: url("../images/email-green.svg");
-  color: $clickable-color;
-  margin-right: 1rem;
-}
-
-
-.print-icon {
-  content: url("../images/print.svg");
-  color: $clickable-color;
-  margin-right: 1rem;
-}
-
-.redundancy-advice .title h1 {
-  display: inline-block;
-  font-weight: $font-weight-light;
-}
-
-.law-says.container-fluid {
-  background-color: $purple-color;
-  color: white;
-  margin: 1rem auto;
-}
-
-.yes-claim {
-  background-color: #e2ede7;
-  margin: 2rem auto;
-}
-
-.no-claim {
-  background-color: #f3e2e0;
-  margin: 2rem auto;
-}
-
-.calculation-image {
-  background: url("../images/calculation-567px.jpg") no-repeat;
-  background-size: contain;
-  background-position: center;
-  min-height: 11rem;;
-  background-color: #a01f5c;
-  margin: 2rem auto;
-}
-
-span.calc-icon {
-  content: url("../images/calculator.svg");
-  width: 40px;
-  height: 40px;
-}
-
-.top-tip {
-  margin: 1rem auto;
-
-  p {
-    display: inline;
-  }
-}
-
-.how-much-paid button {
-  width: 100%;
-  min-height:  100px;
-  display: flex;
-  margin: 2rem auto;
-}
-
-span.idea-icon {
-  content: url("../images/lightbulb.svg");
-}
-
-span.info-icon {
-  content: url("../images/information.svg");
-}
-
-span.plus-icon {
-  content: url("../images/plus.svg");
-}
-
-.notice-periods h3 {
-  width: 83%;
-  color: $teal-color;
-  font-weight: 500;
-}
-
-.more-info h3 {
-  font-size: 2.25rem;
-  display: inline-block;
-}
-
-.more-info-content.notice-periods.content-box {
-  padding: 3rem 1rem;
-}
-
-.different-advice-options a{
-  width: 100%;
-  background-color: $dark-grey;
-  color: white;
-  font-weight: $font-weight-light;
-  line-height: 2rem;
-}
-
-.different-advice-options a:hover{
-  color: white;
-  background-color: $light-grey;
-}
-
-a.feedback {
-  margin: 2rem auto;
-  display: inline-block;
-}
-
-button.more-advice.btn.content-grid:hover {
-  font-weight: $font-weight-bold;
-  color: $clickable-hover;
-}
-
-
-/* Responsive: Portrait tablets and up */
-@media screen and (min-width: 768px) {
-  .calculation-image {
-    background: url("../images/calculation-768px.jpg") no-repeat;
-    background-color: #a01f5c;
-    background-size: contain;
-    background-position: center;
-    min-height: 9rem;
-  }
-
-  button.more-advice.btn.btn-primary {
-    width: 49%;
-    padding: 10px;
+    width: 100%;
+    padding: 20px;
     background-color: $teal-color;
     color: white;
     font-size: 2rem;
     font-weight: $font-weight-bold;
     margin-bottom: 1rem;
-  }
+}
 
-  .how-much-paid button {
-    width: 50%;
-  }
-  .content-grid {
-    width: 48%;
-    margin-bottom: 3rem;
-  }
+.feedback-icon {
+    width: 26px;
+    height: 20px;
+    content: url("../images/feedback.svg");
+    background-repeat: no-repeat;
+    ;
+    color: $clickable-color;
+    margin-right: 1rem;
+}
 
-  button.more-advice.btn.content-grid {
-    padding: 20px 0px 50px 30px;
-    text-align: left;
-  }
+.redundancy.show-more-advice {
+    margin: 5rem 0;
+}
 
-  .notice-periods h3 {
-    width: 93%;
+.right-arrow-icon {
+    width: 26px;
+    height: 20px;
+    content: url("../images/right-arrow.svg");
+    background-repeat: no-repeat;
+    ;
+    color: $clickable-color;
+    margin-right: 1rem;
+}
+
+.menu-bar {
+    background-color: $content-box-color;
+    border-bottom: solid #eaeaea 1px;
+    padding: 2rem 0;
+}
+
+.utility p {
+    color: $teal-color;
+    display: inline-block;
+    margin-right: 2rem;
+}
+
+.social-icons p {
+    display: inline-block;
+    color: $teal-color;
+}
+
+.linkedin-icon {
+    content: url("../images/linkedin.svg");
+    color: $clickable-color;
+    margin-right: 1rem;
+}
+
+.facebook-icon {
+    content: url("../images/facebook.svg");
+    color: $clickable-color;
+    margin-right: 1rem;
+}
+
+.twitter-icon {
+    content: url("../images/twitter.svg");
+    color: $clickable-color;
+    margin-right: 1rem;
+}
+
+.save-icon {
+    content: url("../images/save.svg");
+    color: $clickable-color;
+    margin-right: 1rem;
+}
+
+.email-white-icon {
+    content: url("../images/email.svg");
+    color: $clickable-color;
+    margin-right: 1rem;
+}
+
+.email-grey-icon {
+    content: url("../images/email-grey.svg");
+    color: $clickable-color;
+    margin-right: 1rem;
+}
+
+.email-green-icon {
+    content: url("../images/email-green.svg");
+    color: $clickable-color;
+    margin-right: 1rem;
+}
+
+.print-icon {
+    content: url("../images/print.svg");
+    color: $clickable-color;
+    margin-right: 1rem;
+}
+
+.redundancy-advice .title h1 {
+    display: inline-block;
+    font-weight: $font-weight-light;
+}
+
+.law-says.container-fluid {
+    background-color: $purple-color;
+    color: white;
+    margin: 1rem auto;
+}
+
+.yes-claim {
+    background-color: #e2ede7;
+    margin: 2rem auto;
+}
+
+.no-claim {
+    background-color: #f3e2e0;
+    margin: 2rem auto;
+}
+
+.calculation-image {
+    background: url("../images/calculation-567px.jpg") no-repeat;
+    background-size: contain;
+    background-position: center;
+    min-height: 11rem;
+    ;
+    background-color: #a01f5c;
+    margin: 2rem auto;
+}
+
+span.calc-icon {
+    content: url("../images/calculator.svg");
+    width: 40px;
+    height: 40px;
+}
+
+.top-tip {
+    margin: 1rem auto;
+    p {
+        display: inline;
+    }
+}
+
+.how-much-paid button {
+    width: 100%;
+    min-height: 100px;
+    display: flex;
+    margin: 2rem auto;
+}
+
+span.idea-icon {
+    content: url("../images/lightbulb.svg");
+}
+
+span.info-icon {
+    content: url("../images/information.svg");
+}
+
+span.plus-icon {
+    content: url("../images/plus.svg");
+}
+
+.notice-periods h3 {
+    width: 83%;
     color: $teal-color;
     font-weight: 500;
-  }
+}
 
-  .content-box {
-    padding: 2rem;
+.more-info h3 {
+    font-size: 2.25rem;
+    display: inline-block;
+}
 
-    h3 {
-      margin-bottom: 2rem;
+.more-info-content.notice-periods.content-box {
+    padding: 3rem 1rem;
+}
+
+.different-advice-options a {
+    width: 100%;
+    background-color: $dark-grey;
+    color: white;
+    font-weight: $font-weight-light;
+    line-height: 2rem;
+}
+
+.different-advice-options a:hover {
+    color: white;
+    background-color: $light-grey;
+}
+
+a.feedback {
+    margin: 2rem auto;
+    display: inline-block;
+}
+
+button.more-advice.btn.content-grid:hover {
+    font-weight: $font-weight-bold;
+    color: $clickable-hover;
+}
+
+
+/* Responsive: Portrait tablets and up */
+
+@media screen and (min-width: 768px) {
+    .calculation-image {
+        background: url("../images/calculation-768px.jpg") no-repeat;
+        background-color: #a01f5c;
+        background-size: contain;
+        background-position: center;
+        min-height: 9rem;
     }
-
-    .more-info-content.notice-periods.content-box {
-        padding: 5rem 1rem;
+    button.more-advice.btn.btn-primary {
+        width: 49%;
+        padding: 10px;
+        background-color: $teal-color;
+        color: white;
+        font-size: 2rem;
+        font-weight: $font-weight-bold;
+        margin-bottom: 1rem;
     }
-  }
+    .how-much-paid button {
+        width: 50%;
+    }
+    .content-grid {
+        width: 48%;
+        margin-bottom: 3rem;
+    }
+    button.more-advice.btn.content-grid {
+        padding: 20px 0px 50px 30px;
+        text-align: left;
+    }
+    .notice-periods h3 {
+        width: 93%;
+        color: $teal-color;
+        font-weight: 500;
+    }
+    .content-box {
+        padding: 2rem;
+        h3 {
+            margin-bottom: 2rem;
+        }
+        .more-info-content.notice-periods.content-box {
+            padding: 5rem 1rem;
+        }
+    }
 }
 
 @media screen and (min-width: 968px) {
-  .what-is-redundancy-pay-made-of button.more-advice.btn.btn-primary {
-    width: 33%;
-  }
-
-  .how-much-paid button {
-    width: 33%;
-  }
+    .what-is-redundancy-pay-made-of button.more-advice.btn.btn-primary {
+        width: 33%;
+    }
+    .how-much-paid button {
+        width: 33%;
+    }
 }

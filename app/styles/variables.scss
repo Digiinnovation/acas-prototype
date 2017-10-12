@@ -1,168 +1,155 @@
 @import url('https://fonts.googleapis.com/css?family=Muli');
-
 $supplementary-colour: #a4145b;
-
 $header1-size: 36px;
-
-$font-family-main: 'Muli', sans-serif;
+$font-family-main: 'Muli',
+sans-serif;
 $font-color-white: #dbdbdb;
 $font-weight-bold: 600;
 $font-weight-light: 200;
-
+$base-font-size: 2rem;
 $content-box-color: #F9F9F9;
 $clickable-color: #007a8a;
 $clickable-hover: #016168;
 $button-text-color: #F9F9F9;
-
 $light-grey: #595959;
 $dark-grey: #595959;
 $purple-color: #a21a5b;
 $teal-color: #007A8A;
-
 $tags-text-footer-color: #706f6f;
-
 $box-shadow: 1px 1px 1px 1px #dcdcdc;
-
 //Tags
 $tag-text-hover-line-height:15.5px;
 $tag-text-hover-hover: #F9F9F9;
-
 $tag-hover-color: #595959;
-$tag-border-radius : 24px;
+$tag-border-radius: 24px;
 $tag-background: #595959;
-
 $tag-text-clicked-font-weight:600;
 $tag-text-clicked-color: #F9F9F9;
 $tag-clicked-background:#595959;
-$tag-text-clicked-border-radius : 24px;
-
+$tag-text-clicked-border-radius: 24px;
 .header1 {
-  font-family: $font-family-main;
-  font-size : 36px;
-  color: $tags-text-footer-color;
+    font-family: $font-family-main;
+    font-size: 36px;
+    color: $tags-text-footer-color;
 }
 
 .header2 {
-  font-weight: $font-weight-bold;
-  font-size: 24px;
-  color: $tags-text-footer-color;
+    font-weight: $font-weight-bold;
+    font-size: 24px;
+    color: $tags-text-footer-color;
 }
 
 .header1-clickable {
-  font-weight: $font-weight-bold;
-  font-size : 36px;
-  color: $clickable-color;
+    font-weight: $font-weight-bold;
+    font-size: 36px;
+    color: $clickable-color;
 }
 
 .header1-clickable:hover {
-  color: $clickable-hover;
+    color: $clickable-hover;
 }
 
 .header2-clickable {
-  color: $clickable-color;
+    color: $clickable-color;
 }
 
 .header2-clickable:hover {
-  color: $clickable-hover;
+    color: $clickable-hover;
 }
 
 .lead-paragraph {
-  font-size: 24px;
+    font-size: 24px;
 }
 
 body {
-  font-family: $font-family-main;
-  color: $tags-text-footer-color;
+    font-family: $font-family-main;
+    color: $tags-text-footer-color;
 }
 
 a:hover {
-  text-decoration: none;
+    text-decoration: none;
 }
 
-
 .tag-button {
-  font-family: $font-family-main;
-  font-size: 24px;
-  color: $button-text-color;
-  border-radius : 24px;
-  background : #706F6F;
+    font-family: $font-family-main;
+    font-size: 24px;
+    color: $button-text-color;
+    border-radius: 24px;
+    background: #706F6F;
 }
 
 .tag-button:hover {
-  background : #595959 !important;
-  color: red;
+    background: #595959 !important;
+    color: red;
 }
 
 .tag-button:active {
-  background : #595959;
+    background: #595959;
 }
 
 //Buttons
-
 .pill-button {
-  font-family : Century Gothic;
-  font-size: 1.625rem;
-  line-height: 15.5px;
-  color : #F9F9F9;
-  background : #007A8A;
-  border-radius : 24px;
+    font-family: Century Gothic;
+    font-size: 1.625rem;
+    line-height: 15.5px;
+    color: #F9F9F9;
+    background: #007A8A;
+    border-radius: 24px;
 }
 
 .pill-button:hover {
-  background : #016168;
-  font-family: Century Gothic;
-  font-size: 1.625rem;
-  border-radius : 24px;
+    background: #016168;
+    font-family: Century Gothic;
+    font-size: 1.625rem;
+    border-radius: 24px;
 }
 
 .pill-button:active {
-  background : #016168;
+    background: #016168;
 }
 
 //Large button-text-color
-
 .lg-button {
-  color: $button-text-color;
-  background-color: #007A88;
+    color: $button-text-color;
+    background-color: #007A88;
 }
 
 .lg-button:hover {
-  background-color: #016168;
+    background-color: #016168;
 }
 
 lg-button:active {
-  background-color: #016168;
+    background-color: #016168;
 }
 
 //Small button
-
 .sm-button {
-  color: $button-text-color;
-  font-size: 19px;
-  background-color: #007A87;
-  width: 245px;
-  height: 78px;
+    color: $button-text-color;
+    font-size: 19px;
+    background-color: #007A87;
+    width: 245px;
+    height: 78px;
 }
 
 .sm-button:hover {
-  background-color: #016168;
+    background-color: #016168;
 }
 
 .content-box {
-  background-color: $content-box-color;
-  box-shadow: $box-shadow;
-  margin: 2rem auto;
+    background-color: $content-box-color;
+    box-shadow: $box-shadow;
+    margin: 2rem auto;
 }
 
 .content-grid {
-  width: 100%;
-  padding: 53px;
-  background-color: $content-box-color;
-  color: $teal-color;
-  font-size: 2rem;
-  font-weight: 500;
-  margin-bottom: 1rem;
-  margin-right: 18px;
-  border: none;
-  box-shadow: $box-shadow;
+    width: 100%;
+    padding: 53px;
+    background-color: $content-box-color;
+    color: $teal-color;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    margin-right: 18px;
+    border: none;
+    box-shadow: $box-shadow;
 }
